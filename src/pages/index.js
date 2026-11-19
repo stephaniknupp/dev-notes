@@ -8,7 +8,7 @@ export default function IndexPage({ data }) {
     return (
         <Layout>
             <h1>Meus últimos aprendizados</h1>
-            <p>Aqui eu anoto o que aprendi em cada aula, curso ou estudo.</p>
+            <p>Aqui eu anoto o que aprendi em cada aula, curso ou estudo. Para revisar depois. </p>
             <Lista nodes={data.allMarkdownRemark.nodes} />
         </Layout>
     )
